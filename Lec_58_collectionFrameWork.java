@@ -1,5 +1,5 @@
 import java.util.*;
-public class Lec_58_collectionFrameWork {
+public class lec_58_collectionFrameWork {
     public static void main(String args[]){
 
         List<Integer> list = new ArrayList<>();
