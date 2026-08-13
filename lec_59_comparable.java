@@ -16,12 +16,6 @@ public class lec_59_comparable {
         for(phoneDirectory obj : pd){
             System.out.println(obj.getContactName() + " " + obj.getContactNumber());
         }
-
-
-
-
-
-        
     }
     public static class phoneDirectory implements Comparable<phoneDirectory>{
         private String contactName;

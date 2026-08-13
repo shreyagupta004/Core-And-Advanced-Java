@@ -24,15 +24,15 @@ public class lec_60_comparator {
         nameComparator nc = new nameComparator();
         Collections.sort(list , nc);
         for(Movie movie : list){
-            System.out.println(movie.getRating() + " " + movie.getName() + " " + movie.getYear());
+            System.out.println(movie.getName() + " " + movie.getRating() + " " + movie.getYear());
         }
         
         System.out.println("sorted based on year : ");
-        
+
         yearComparator yc = new yearComparator();
         Collections.sort(list , yc);
         for(Movie movie : list){
-            System.out.println(movie.getRating() + " " + movie.getName() + " " + movie.getYear());
+            System.out.println(movie.getYear() + " " + movie.getName() + " " + movie.getRating());
         }
 
     }
